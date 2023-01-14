@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,19 +153,20 @@ h2 {
     background: #3cb0fd;
     
 }
-
 .bottom-container {
     background-color: #66BFBF;
     text-align: center;
     padding-top: 10px;
 
 }
-
 .bottom-container a {
     text-decoration: none;
     padding: 20px;
 }
-
+.bottom-container a:hover {
+    transform: scale(1.5);
+    text-shadow: 0px 0px 5px #cffc93;
+}
 .name {
     color: white;
     padding-bottom: 10px;
